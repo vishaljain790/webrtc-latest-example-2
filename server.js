@@ -12,7 +12,7 @@ process.title = "node-easyrtc";
 var app = express();
 app.use(serveStatic('static', {'index': ['index.html']}));
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 3000;
 
 // Start Express http server on port 8080
 var webServer = http.createServer(app).listen(port);
